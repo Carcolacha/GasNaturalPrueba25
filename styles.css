@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: block;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin: 40px;
+}
+#contenedor {
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 50px;
+    height: auto;
+}
+#cabecera {
+    padding: 15px;
+    display: block;
+    text-align: left;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: black 1px solid;
+}
+#cabecera img, h2 {
+    display: inline-block;
+}
+
+nav,aside {
+    width: 24%;
+    text-align: center;
+    height: 400px;
+}
+section {
+    width: 40%;
+    height: 400px;
+}
+nav,section,aside {
+    display: inline-block;
+}
+#cabecera,#articulo,#pie {
+    background-color: #d0d3f3;
+    text-align: center;
+    width: 95%;
+}
+#articulo{
+    min-height: 150px;
+}
+#asaid {
+    float: right;
+    margin-right: 90px;
+    text-align: left;
+}
+#navegador {
+    float: left;
+    margin-left: 90px;
+    text-align: left;
+}
+#title {
+    padding-left: 5px;
+}
+#LogoGas {
+    height: 60px;
+    padding-right: 22px;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 40px;
+}
+footer {
+    margin: 8px;
+    padding: 20px;
+    height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: black 2px solid;
+    display: flex;
+}
+div {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 6px;
+    padding: 30px;
+}
+#incio {
+    display: inline-block;
+    margin: 15px;
+    list-style: none;
+    text-align: right;
+    margin-left: 700px;
+}
+#incio li {
+    color: black;
+    display: inline-block;
+    text-align: right;
+    padding-left: 8px;
+    font-size: 15px;
+}
+.indice {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+.title {
+    color: rgb(255, 255, 255);
+    padding-bottom: 8px;
+    padding: 5px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-size: 28px;
+    background: rgba(0 , 35, 97, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 8px;
+}
+.text {
+    color: black;
+    padding-bottom: 8px;
+    font-size: 25px;
+}
+.text1 {
+    color: black;
+    font-size: 22px;
+}
+.horario {
+    color: rgb(0, 0, 119);
+    padding-bottom: 8px;
+    text-align: center;
+}
+.list {
+    list-style: none;
+    color: black;
+    padding-bottom: 8px;
+}
+.list1 {
+    list-style: none;
+    color: black;
+    font-size: 18px;
+}
+.torc {
+    background: #002d62;
+    width: 40%;
+    font-size: 22px;
+}
+.img {
+    height: 300px;
+}
+.listventajas li{
+    list-style: decimal;
+    text-align: left;
+    padding-bottom: 7px;
+}
